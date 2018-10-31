@@ -1,0 +1,50 @@
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.whiten {
+  background-color: #fff !important;
+  height: 77px !important;
+}
+
+.whiten .navbar {
+  height: 100% !important;
+}
+
+.whiten .navbar .container {
+  height: 77px !important;
+}
+
+.logo-pad {
+  padding: 0 !important;
+  margin-top: 2px !important;
+  height: 100% !important;
+}
+
+.li-pad {
+  padding: 10px 20px !important;
+  height: 75px !important;
+}
+
+.main-colored li a {
+  color: #2e51a6 !important;
+}
+
+.main-colored li a:hover {
+  color: red !important;
+}
+
+.header .nav li.active .nav-item-child {
+  color: red !important;
+}
+
+.dd-item {
+  width: 100% !important;
+}
+
+.dropdown-menu {
+  left: 50%;
+  right: auto;
+  text-align: center;
+  transform: translate(-50%, 0);
+}
