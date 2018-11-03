@@ -79,7 +79,7 @@ a:focus, a:hover, a:active {
   right: -15px;
   width: 9px;
   height: 2px;
-  background: #17bed2;
+  background: #fd871f;
   content: " ";
 }
 
@@ -129,19 +129,19 @@ h4 {
 
 ::selection {
   color: #fff;
-  background: #17bed2;
+  background: #fd871f;
   text-shadow: none;
 }
 
 ::-webkit-selection {
   color: #fff;
-  background: #17bed2;
+  background: #fd871f;
   text-shadow: none;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #17bed2;
+  background: #fd871f;
   text-shadow: none;
 }
 
@@ -209,7 +209,7 @@ h4 {
 .accordion [aria-expanded="true"],
 .accordion .collapse.in {
   color: #fff;
-  background: #17bed2;
+  background: #fd871f;
 }
 
 /*------------------------------------------------------------------
@@ -269,7 +269,7 @@ fieldset[disabled] .btn-theme {
 
 .btn-white-bg:hover, .btn-white-bg:focus, .btn-white-bg.focus {
   color: #fff;
-  background: #17bed2;
+  background: #fd871f;
   border-color: transparent;
 }
 
@@ -295,7 +295,7 @@ fieldset[disabled] .btn-theme {
 
 .btn-default-bg:hover, .btn-default-bg:focus, .btn-default-bg.focus {
   color: #fff;
-  background: #17bed2;
+  background: #fd871f;
   border-color: transparent;
 }
 
@@ -353,7 +353,7 @@ fieldset[disabled] .btn-theme {
   left: 0;
   width: 9px;
   height: 2px;
-  background: #17bed2;
+  background: #fd871f;
   content: " ";
   margin-right: 10px;
 }
@@ -616,7 +616,7 @@ fieldset[disabled] .btn-theme {
 }
 
 .header .navbar-toggle:hover .toggle-icon {
-  background: #17bed2;
+  background: #fd871f;
   transition-duration: 300ms;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
@@ -625,7 +625,7 @@ fieldset[disabled] .btn-theme {
 .header .navbar-toggle:hover .toggle-icon:before, .header .navbar-toggle:hover .toggle-icon:after {
   width: 21px;
   height: 1px;
-  background: #17bed2;
+  background: #fd871f;
   transition-duration: 300ms;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
@@ -655,7 +655,7 @@ fieldset[disabled] .btn-theme {
 
 .header .logo-img {
   display: inline-block;
-  width: 146px;
+  width: 135px;
   height: auto;
   max-width: 100%;
   max-height: 100%;
@@ -664,13 +664,6 @@ fieldset[disabled] .btn-theme {
 
 .header .logo-img-main {
   display: inline-block;
-  transition-duration: 400ms;
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
-}
-
-.header .logo-img-active {
-  display: none;
   transition-duration: 400ms;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
@@ -694,13 +687,6 @@ fieldset[disabled] .btn-theme {
 }
 
 .header .nav-item .nav-item-hover.active:after {
-  opacity: 1;
-  transition-duration: 400ms;
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
-}
-
-.header .nav-item:hover .nav-item-hover:after {
   opacity: 1;
   transition-duration: 400ms;
   transition-property: all;
@@ -736,7 +722,7 @@ fieldset[disabled] .btn-theme {
   left: 0;
   width: 9px;
   height: 2px;
-  background: #17bed2;
+  background: #fd871f;
   opacity: 0;
   content: " ";
   transition-duration: 400ms;
@@ -781,11 +767,9 @@ fieldset[disabled] .btn-theme {
   }
   /* Logo */
   .header .logo .logo-img-main {
-    display: none;
-  }
-  .header .logo .logo-img-active {
     display: inline-block;
   }
+
   /* Navbar Nav */
   .header .nav-item-child {
     color: #515769;
@@ -840,17 +824,12 @@ fieldset[disabled] .btn-theme {
     transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
   }
   .page-on-scroll .header .logo-img-main {
-    display: none;
-    transition-duration: 400ms;
-    transition-property: all;
-    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
-  }
-  .page-on-scroll .header .logo-img-active {
     display: inline-block;
     transition-duration: 400ms;
     transition-property: all;
     transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
   }
+
   .page-on-scroll .header .nav-item-child {
     color: #515769;
     transition-duration: 300ms;
@@ -1059,7 +1038,7 @@ fieldset[disabled] .btn-theme {
   	[Text Colors]
 ------------------------------------------------------------------*/
 .color-base {
-  color: #17bed2 !important;
+  color: #fd871f !important;
 }
 
 .color-white {
@@ -1090,7 +1069,7 @@ fieldset[disabled] .btn-theme {
   	[Background Colors]
 ------------------------------------------------------------------*/
 .bg-color-base {
-  background: #17bed2 !important;
+  background: #fd871f !important;
 }
 
 .bg-color-white {

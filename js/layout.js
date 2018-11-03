@@ -34,7 +34,7 @@ var Layout = (function() {
     });
 
     var $offset = 0;
-    $offset = $(".navbar-fixed-top").height() - 20;
+    $offset = $(".navbar-fixed-top").height() - 67;
 
     // jQuery for page scrolling feature - requires jQuery Easing plugin
     $(".js_nav-item a").bind("click", function(event) {

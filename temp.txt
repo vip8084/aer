@@ -1,1 +1,21 @@
-<a class="nav-item-child nav-item-hover" href="#about">Проектирование и Монтаж</a>
+//выровнить выпадающее меню Bootstrap 3 по центру
+ul.dropdown-menu {
+  left: 50%;
+  right: auto;
+  text-align: center;
+  transform: translate(-50%, 0);
+}
+
+//выровнить элементы выподающего меню по центру
+.dropdown-menu li, .dropdown-menu li a{
+  width: 100% !important;
+}
+
+//------------------------------------
+
+//убрать бэкграунд на ховер (прозрачный цвет?)
+background: rgba(0, 0, 0, 0);
+
+//----------------------------------
+
+сохранить статью https://bootstrapious.com/p/bootstrap-carousel
