@@ -1,5 +1,18 @@
-.dropdown:hover .dropdown-menu {
-  display: block;
+.dropdown-toggle.li-pad:focus {
+  background-color: unset !important;
+}
+
+.navbar {
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+.dd-item:hover {
+  background: rgba(0, 0, 0, 0) !important;
+}
+
+.navbar-collapse {
+  max-height: unset !important;
 }
 
 .whiten {
@@ -29,8 +42,7 @@
 }
 
 .main-colored li {
-  height: 100% !important;
-  display: flex !important;
+  height: 100% !important; /* move to 992*/
   align-items: center !important;
 }
 
@@ -45,25 +57,6 @@
 
 .header .nav li.active .nav-item-child {
   color: #fd871f !important;
-}
-
-.dd-item {
-  width: 100% !important;
-}
-
-.dd-item:hover {
-  background: rgba(0, 0, 0, 0) !important;
-}
-
-.dropdown-menu {
-  left: 50%;
-  right: auto;
-  text-align: center;
-  transform: translate(-50%, 0);
-}
-
-.dropdown-menu li {
-  width: 100% !important;
 }
 
 /*------------ lower jummbotron images by 67px and trim from down --------------------*/
@@ -140,9 +133,36 @@ p.color-white {
   margin: 27px 0 14px !important;
 }
 
-/*@media screen and (max-width: 900px) and (min-width: 600px)*/
+.caret {
+  color: #2e51a6;
+}
 
 /*--------------------------*/
+@media (min-width: 992px) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+
+  .dd-item {
+    width: 100% !important;
+  }
+
+  .dropdown-menu {
+    left: 50%;
+    right: auto;
+    text-align: center;
+    transform: translate(-50%, 0);
+  }
+
+  .dropdown-menu li {
+    width: 100% !important;
+  }
+
+  .main-colored li {
+    display: flex !important;
+  }
+}
+
 @media (max-width: 991px) {
   .main-colored li {
     background-color: white;
@@ -153,20 +173,41 @@ p.color-white {
     padding: 0;
     width: calc(100% + 1px);
   }
+
+  .js_nav-item.nav-item.dropdown.open {
+    height: unset !important;
+    border: none !important;
+  }
+
+  .dropdown-menu.nav.navbar-nav {
+    position: static !important;
+    border: none;
+  }
+
+  .dropdown-menu.nav.navbar-nav li {
+    width: 100%;
+  }
+
+  .dropdown-menu.nav.navbar-nav li a {
+    text-align: unset !important;
+  }
 }
 
 @media (max-width: 768px) {
   .navbar-collapse > .menu-container {
     padding: 0;
-    height: 400px;
+    height: 260px;
   }
 
   .navbar-collapse.nav-collapse.collapse.in {
     width: calc(100% + 1px);
-    position: relative;
-    top: -1px;
-    max-height: unset;
   }
 
-  
+  .collapsing {
+    width: calc(100% + 1px) !important;
+  }
+
+  .navbar-collapse {
+    border: none !important;
+  }
 }
