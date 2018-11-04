@@ -34,10 +34,23 @@ var Layout = (function() {
     });
 
     var $offset = 0;
-    $offset = $(".navbar-fixed-top").height() - 67;
+    $offset = $(".navbar-fixed-top").height();
 
     // jQuery for page scrolling feature - requires jQuery Easing plugin
     $(".js_nav-item a").bind("click", function(event) {
+      var $position = $($(this).attr("href")).offset().top;
+      $("html, body")
+        .stop()
+        .animate(
+          {
+            scrollTop: $position - $offset
+          },
+          600
+        );
+      event.preventDefault();
+    });
+
+    $(".carousel-centered a").bind("click", function(event) {
       var $position = $($(this).attr("href")).offset().top;
       $("html, body")
         .stop()
