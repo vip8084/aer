@@ -138,6 +138,12 @@ p.color-white {
 }
 
 /*--------------------------*/
+@media (min-width: 1200px){
+  .navbar > .container {
+      width: 1170px !important;
+  }
+}
+
 @media (min-width: 992px) {
   .dropdown:hover .dropdown-menu {
     display: block;
@@ -161,17 +167,19 @@ p.color-white {
   .main-colored li {
     display: flex !important;
   }
+
+  .navbar > .container {
+    width: 970px;
+  }
+
+  .js_nav-item.nav-item:last-child a {
+    padding-right: 0 !important;
+}
 }
 
 @media (max-width: 991px) {
   .main-colored li {
     background-color: white;
-  }
-
-  .navbar > .container {
-    margin: 0;
-    padding: 0;
-    width: calc(100% + 1px);
   }
 
   .js_nav-item.nav-item.dropdown.open {
