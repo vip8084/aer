@@ -104,11 +104,8 @@ h1.carousel-title span {
 }
 
 .margin-b-40 h1,
-.margin-b-40 h1 span{
-  font-weight: 900 !important;
-}
-
-.carousel-centered .margin-b-40 h2 {
+.margin-b-40 h1 span,
+.margin-b-40 h2 {
   font-weight: 900 !important;
 }
 
@@ -284,9 +281,10 @@ p.color-white {
   top: 67px;
 }
 
-div h2#sertification {
+div#sertification{
   font-weight: 700 !important;
 }
+
 
 @media (max-width: 768px) {
   h1.carousel-title,

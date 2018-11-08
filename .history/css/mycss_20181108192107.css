@@ -277,6 +277,11 @@ p.color-white {
   .dropdown-menu.nav.navbar-nav li a {
     padding: 10px 15px;
   }
+
+  .img-responsive{
+    max-width: 60% !important;
+    margin: 0 auto !important;
+  }
 }
 
 #main-wrapper {
