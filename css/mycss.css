@@ -1,3 +1,12 @@
+.panel-body ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.panel-body ul li {
+  color: #fff;
+}
+
 .dropdown-toggle.li-pad:focus {
   background-color: unset !important;
 }
@@ -267,7 +276,7 @@ p.color-white {
   }
 }
 
-#main-section {
+#main-wrapper {
   position: relative;
   top: 67px;
 }
