@@ -31,13 +31,6 @@ var Layout = (function() {
                 .stop()
                 .animate({ scrollTop: o - a }, 600),
                 t.preventDefault();
-            }),
-            $("#services-sender").bind("click", function(t) {
-              var o = $($(this).attr("href")).offset().top;
-              $("html, body")
-                .stop()
-                .animate({ scrollTop: o - a }, 600),
-                t.preventDefault();
             });
           $("body").scrollspy({ target: ".navbar-fixed-top", offset: a + 2 });
           $(window).scroll(function() {

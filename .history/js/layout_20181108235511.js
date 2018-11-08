@@ -63,7 +63,7 @@ var Layout = (function() {
       event.preventDefault();
     });
 
-    $("#services-sender").bind("click", function(event) {
+    $(".carousel-centered a").bind("click", function(event) {
       var $position = $($(this).attr("href")).offset().top;
       $("html, body")
         .stop()
