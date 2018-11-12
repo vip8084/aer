@@ -1,4 +1,4 @@
-#sert-heading{
+#sert-heading {
   text-align: center;
 }
 
@@ -108,7 +108,7 @@ h1.carousel-title span {
 }
 
 .margin-b-40 h1,
-.margin-b-40 h1 span{
+.margin-b-40 h1 span {
   font-weight: 900 !important;
 }
 
@@ -348,4 +348,35 @@ div h2#sertification {
   .carousel-centered div.margin-b-40 {
     margin-bottom: 20px !important;
   }
+}
+
+.services-item,
+#collapseFirst,
+#collapseSecond,
+#collapseThird,
+#collapseFourth,
+#collapseFifth {
+  background: rgba(0, 0, 0, 0) !important;
+  color: #fd871f !important;
+}
+
+.accordion-services li {
+  color: #a6a7aa !important;
+}
+
+.accordion-services .panel-title span {
+  font-size: 17px;
+}
+
+.accordion-services .panel img {
+  margin-bottom: 30px;
+}
+
+p.highlighted {
+  color: #fd871f;
+  font-weight: 700;
+}
+
+.service-body ul {
+  margin-bottom: 20px;
 }
